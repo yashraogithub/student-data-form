@@ -1,0 +1,13 @@
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/profiles/
+/web/themes/contrib/
+/web/sites/default/files/
+/web/sites/default/settings.local.php
+/web/sites/default/private/
+/*.tar.gz
+*.sql
+*.sqlite
+.env
+

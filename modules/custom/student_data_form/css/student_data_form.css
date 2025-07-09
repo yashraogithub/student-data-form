@@ -1,0 +1,6 @@
+.student-table td,
+.student-table th {
+  vertical-align: middle;
+  text-align: center;
+}
+

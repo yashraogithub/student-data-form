@@ -1,0 +1,31 @@
+student_data_form.form:
+  path: '/student-data-form'
+  defaults:
+    _form: '\Drupal\student_data_form\Form\StudentDataForm'
+    _title: 'Student Data Form'
+  requirements:
+    _permission: 'access content'
+
+student_data_form.list:
+  path: '/student-list'
+  defaults:
+    _controller: '\Drupal\student_data_form\Controller\StudentDataListController::studentList'
+    _title: 'Student List'
+  requirements:
+    _permission: 'access content'
+
+student_data_form.edit:
+  path: '/student/{id}/edit'
+  defaults:
+    _form: '\Drupal\student_data_form\Form\StudentDataEditForm'
+    _title: 'Edit Student'
+  requirements:
+    _permission: 'access content'
+
+student_data_form.delete:
+  path: '/student/{id}/delete'
+  defaults:
+    _form: '\Drupal\student_data_form\Form\StudentDataDeleteForm'
+    _title: 'Delete Student'
+  requirements:
+    _permission: 'access content'

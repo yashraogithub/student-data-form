@@ -1,0 +1,5 @@
+student_style:
+  version: 1.x
+  css:
+    theme:
+      css/student_data_form.css: {}

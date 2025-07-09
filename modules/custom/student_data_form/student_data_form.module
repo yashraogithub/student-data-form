@@ -1,0 +1,7 @@
+<?php 
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function student_data_form_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'student_data_form/student_style';
+}

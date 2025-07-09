@@ -1,0 +1,7 @@
+name: studentdata
+recipe: drupal10
+config:
+  webroot: .
+services:
+  phpmyadmin:
+    type: phpmyadmin
