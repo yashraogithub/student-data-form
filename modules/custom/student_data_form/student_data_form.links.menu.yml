@@ -1,0 +1,13 @@
+student_data_form.menu_link_form:
+  title: '📝 Student Form'
+  description: 'Form to add new student data'
+  route_name: student_data_form.form
+  menu_name: main
+  weight: 0
+
+student_data_form.menu_link_list:
+  title: '📋 Student List'
+  description: 'View list of students'
+  route_name: student_data_form.list
+  menu_name: main
+  weight: 1
